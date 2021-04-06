@@ -8,7 +8,7 @@ and text that wraps the image or drops beneath the image.
 
 <div class="body-div">
     <div class="body-img">
-        <img src="assets/images/bunny.png">
+        <img src="/assets/images/bunny.png">
     </div>
     <div class="lipsum-text">
         <h1 id="history">The History of Easter</h1>
