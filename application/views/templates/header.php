@@ -13,7 +13,6 @@ Purpose: Fill-In.
 			<link rel="icon" href="/assets/images/favicon.ico" type="image/gif">
 		</head>
         <body>
-		<?= $title; ?>
 			<nav class="navbar navbar-expand-md">
 				<a class="navbar-brand" href="/home">Easter Home</a>
 				<button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
