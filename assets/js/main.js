@@ -1,7 +1,8 @@
 /* 
 Name: Michael Perron
-Coding 05
-Purpose: This file contains a common function to title.js and email.js.
+Coding 07
+Purpose: This file contains a common function for email.js
+and maybe other pages in the future.
 */
 "use strict";
 
