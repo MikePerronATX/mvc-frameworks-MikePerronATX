@@ -81,7 +81,6 @@ and text that wraps the image or drops beneath the image.
             In Eastern Orthodox Christianity, Easter rituals start with the Great Lent, which begins on Clean Monday (40 days prior to
             Easter, not including Sundays). The last week of Great Lent is referred to as Palm Week, and it ends with Lazarus Saturday, the day before Palm Sunday.
             Palm Sunday marks the beginning of Holy Week, which ends on Easter.
-        
 		</p>
         
 		<h3 class="titleColor">Easter Eggs</h3>
