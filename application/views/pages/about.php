@@ -1,7 +1,7 @@
 <!--
 Name: Michael Perron
 Coding 07
-Purpose: Fill-In.
+Purpose: The about page on how to dye Easyter Eggs.
 -->
 <div class="body-div">
     <div class="egg-text">
