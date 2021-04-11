@@ -14,7 +14,7 @@ Purpose: Fill-In.
 		</head>
         <body>
 			<nav class="navbar navbar-expand-md">
-				<a class="navbar-brand" href="/home">Easter Home</a>
+				<a class="navbar-brand" href="/home">Coding 07 / Easter / <?= $title; ?> Page</a>
 				<button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
