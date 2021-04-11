@@ -9,7 +9,8 @@ class Pages extends CI_Controller {
         }
 
         $data['title'] = ucfirst($page); // Capitalize the first letter
-
+		$data['servertime'] = date('l jS \of F Y h:i:s A');//server time
+		
         $this->load->view('templates/header', $data);
         $this->load->view('pages/'.$page, $data);
         $this->load->view('templates/footer', $data);
