@@ -1,7 +1,7 @@
 <?php
 /*
 Name: Michael Perron
-Coding 06
+Coding 07
 Purpose: get data from contact form, validate,
 determine which page (success or failure) that it
 should be sent to.
