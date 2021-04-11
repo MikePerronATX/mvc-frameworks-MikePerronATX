@@ -1,7 +1,8 @@
 /* 
 Name: Michael Perron
-Coding 06 - JQUERY
-Purpose: This page is to add the needed js to make page contact form perform correctly.
+Coding 07 - JQUERY
+Purpose: This page is to add the needed js to make page contact form
+perform correctly.
 */
 "use strict";
 
@@ -13,36 +14,6 @@ function clearForm() {
     $('#message').val('');
     $('#msg').html('<br>'); // minor violation of concerns, but okay for now
 }
-
-// function sendData(contactName, contactFrom, 
-//                     contactSub, contactMess ) {
-
-//     let msgArea = document.getElementById("msg");
-
-//     $.ajax({
-//         url: 'email',
-//         type: 'POST',
-//         data: {contactName: contactName,
-//                 contactFrom: contactFrom,
-//                 // contactRe_from: contactRe_from,
-//                 contactSub: contactSub,
-//                 contactMess: contactMess},
-//         success: function (val) {
-//             console.log(val);
-//             if (val === 'okay') {
-//                 clearForm();
-//                 msgArea.innerHTML = "Your message was sent";
-//             } else {
-//                 msgArea.innerHTML = "Sorry, your email was not sent";
-//             }
-//         },
-//         error: function () {
-//             msgArea.innerHTML = "Server Error1";
-//         }
-//     });
-
-//     return;
-// }
 
 function validate() {
     var errorMessage = "";
@@ -83,12 +54,6 @@ function validate() {
     if (errorMessage === "") {
         msgArea.innerHTML = "SENT (Pretending to send email in this basic page.)";
 
-        // console.log("calling ajax");
-        // sendData(contactName,
-        //             contactFrom,
-        //             // contactRe_from,
-        //             contactSub,
-        //             contactMess);
     } else {
         console.log("errors");
         msgArea.innerHTML = errorMessage;
