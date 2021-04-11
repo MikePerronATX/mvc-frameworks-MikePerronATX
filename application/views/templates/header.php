@@ -1,7 +1,8 @@
 <!--
 Name: Michael Perron
 Coding 07
-Purpose: Fill-In.
+Purpose: This is the header template page that will be used on each
+displayed page.
 -->
 <html>
         <head>
