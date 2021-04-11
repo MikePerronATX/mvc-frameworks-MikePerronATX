@@ -1,3 +1,9 @@
+<!--
+Name: Michael Perron
+Coding 07
+Purpose: Created this page based on the tutorial, 
+and added a variable for the server time.
+-->
 <?php
 class Pages extends CI_Controller {
 
