@@ -4,7 +4,7 @@ Coding 07
 Purpose: Fill-In.
 -->			
 		<footer class="centered">
-        <?= $title; ?>
+        <?= $title; ?> Page
         <br>
         <?= $servertime; ?>
         </footer>
