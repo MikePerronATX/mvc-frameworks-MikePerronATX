@@ -1,0 +1,205 @@
+/* 
+Name: Michael Perron
+Coding 07
+Purpose: This page adjusts the visual layout.
+*/
+
+body{
+    background-color: #ce85e4;
+}
+.body-div{
+    margin: 3px;
+}
+.centered{
+    text-align: center;
+}
+.egg-text{
+    background-color:rgb(214, 194, 194);
+    margin: 5%;
+    padding: 5%;
+    margin-bottom: 5%;
+    font-size: 20px;
+    text-align:center;
+}
+.egg-text-photoBG{
+    background-color: gray;
+}
+.eggTitles{
+    color:#13bfdd;
+}
+#eggsTop {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer{
+    background: #6806a1;
+    position: fixed;
+    height: 50px;
+    bottom: 0;
+    width: 100%;
+    color: white;
+}
+.form {
+    position: relative;
+    background: (159, 10, 245);
+    max-width: 160px;
+    font-size: 12px;
+    margin: 0 auto 20px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    margin-top: 2%;
+    margin-bottom: 20%;
+} 
+.form textarea {
+    background: #e2f5cc;
+}
+.form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #e2f5cc;
+    width: 100%;
+    border: 0;
+    margin: 0 0 0 0;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    background: #8562d6;
+    width: 90%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+    background: #43A047;
+}
+hr{
+    padding: 0px;
+    margin: 2px;
+}
+#oblIngredients{
+    font-style: oblique;
+}
+.lipsum-text{
+    background-color:rgb(214, 194, 194);
+    margin: 5px;
+    padding: 5px;
+    margin-bottom: 75px;
+}
+.mainTitleColor{
+    margin-top: 5%;
+    color: rgb(20, 102, 224);
+    text-align: center;
+    font-size: 30px;
+}
+#msg{
+    color: rgb(110, 2, 2);
+    font-size: 7px;
+}
+.navbar {
+    background:#833999;
+}
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+    font-size: 10px;
+    margin-left:1%;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+    color: #000;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+#tipColor{
+    color: red;
+    text-align: center;
+}
+#tipColor-text{
+    color: #8f0303;
+}
+.titleColor{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 20px;
+    color: rgb(153, 101, 4);
+}
+.titleColorAbout{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 15px;
+    color: rgb(5, 123, 128);
+}
+#text{
+    font-size: 45px;
+}
+
+/* Extra Small devices (landscape phones, 150px and up) */
+@media (min-width: 150px) {  
+    h1 {font-size:.73rem;} /*1rem = 16px*/
+    h2 {font-size: 1rem;}
+    .form{max-width: 180px; font-size: 11px;}
+    
+}
+    
+/* Small devices (landscape phones, 300px and up) */
+@media (min-width: 300px) {  
+    h1{font-size:1.5rem;} /*1rem = 16px*/
+    h2 {font-size: 1rem;}
+    .form{max-width: 250px; font-size: 16px;}
+    .navbar-brand {font-size: 13px;}
+    li {font-size: 26px;}
+    #msg{font-size: 10px;}
+}
+    
+/* Medium devices (tablets, 600px and up) */
+@media (min-width: 600px) {  
+    h1 {font-size:2rem;} /*1rem = 16px*/
+    h2 {font-size:1.5rem;}
+    .form{max-width: 350px; font-size: 18px;}
+    .navbar-brand {font-size: 16px;}
+    #msg{font-size: 14px;}
+}
+    
+/* Large devices (desktops, 750px and up) */
+@media (min-width: 750px) { 
+    h1{font-size:2.5rem;} /*1rem = 16px*/
+    h2 {font-size:2rem;}
+    #bunny{width: 40%; height: auto; float: left; margin-left: 6%;}
+    #eggs{ display: block; margin-left: auto; margin-right: auto; width: 60%;}
+    body-div{margin: 10%;}
+    .titleColorAbout{font-size: 25px;}
+}
+
+/* Larger devices (large desktops, 900px and up) */
+@media (min-width: 900px) {  
+    h1{font-size:3rem;} /*1rem = 16px*/ 
+    h2 {font-size:2.5rem;}
+    .form{max-width: 390px; font-size: 16px;}
+    #msg{font-size: 18px;}
+}
+    
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    h1{font-size:4rem;} /*1rem = 16px*/ 
+    h2 {font-size:3.5rem;}
+    .form{max-width: 430px; font-size: 16px;}
+    #msg{font-size: 20px;}  
+}
+/* Extra Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1500px) {  
+    h1{font-size:4rem;} /*1rem = 16px*/ 
+    h2 {font-size:3.5rem;}
+}
