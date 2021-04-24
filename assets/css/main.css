@@ -123,6 +123,12 @@ hr{
 .navbar-collapse {
     justify-content: flex-end;
 }
+.newsTitleColor{
+    margin-top: 5%;
+    color: rgb(20, 102, 224);
+    text-align: center;
+    font-size: 18px;
+}
 #tipColor{
     color: red;
     text-align: center;
@@ -171,6 +177,7 @@ hr{
     .form{max-width: 350px; font-size: 18px;}
     .navbar-brand {font-size: 16px;}
     #msg{font-size: 14px;}
+    .newsTitleColor{font-size: 25px;}
 }
     
 /* Large devices (desktops, 750px and up) */
@@ -181,6 +188,7 @@ hr{
     #eggs{ display: block; margin-left: auto; margin-right: auto; width: 60%;}
     body-div{margin: 10%;}
     .titleColorAbout{font-size: 25px;}
+    .newsTitleColor{font-size: 30px;}
 }
 
 /* Larger devices (large desktops, 900px and up) */
@@ -189,6 +197,7 @@ hr{
     h2 {font-size:2.5rem;}
     .form{max-width: 390px; font-size: 16px;}
     #msg{font-size: 18px;}
+    .newsTitleColor{font-size: 35px;}
 }
     
 /* Extra large devices (large desktops, 1200px and up) */
