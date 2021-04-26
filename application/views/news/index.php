@@ -1,11 +1,12 @@
-<h2><?php echo $title; ?></h2>
-
 <?php foreach ($news as $news_item): ?>
-
-        <h3><?php echo $news_item['title']; ?></h3>
-        <div class="main">
-                <?php echo $news_item['text']; ?>
+        <div class="newsTitleColor">
+                <?= $news_item['title']; ?>
         </div>
-        <p><a href="<?php echo site_url('news/'.$news_item['slug']); ?>">View article</a></p>
-
+        <div class="centered">
+                <?= $news_item['descr']; ?>
+                <p><a href="<?= '/news/'.$news_item['slug'] ?>">View article</a></p>
+        </div>
 <?php endforeach; ?>
+
+<script src="/assets/js/jquery.min.js"></script>
+<script src="/assets/js/bootstrap.min.js"></script>
