@@ -1,6 +1,6 @@
 /* 
 Name: Michael Perron
-Coding 07
+Coding 08
 Purpose: This page adjusts the visual layout.
 */
 
@@ -151,7 +151,16 @@ hr{
 #text{
     font-size: 45px;
 }
-
+.viewDes{
+    text-align: center;
+    color: rgb(20, 102, 224);
+    margin-top: 15px;
+    font-size: 22px;
+}
+.viewText{
+    margin: 7px;
+    font-size: 18px;
+}
 /* Extra Small devices (landscape phones, 150px and up) */
 @media (min-width: 150px) {  
     h1 {font-size:.73rem;} /*1rem = 16px*/
@@ -178,6 +187,7 @@ hr{
     .navbar-brand {font-size: 16px;}
     #msg{font-size: 14px;}
     .newsTitleColor{font-size: 25px;}
+    .viewDes{font-size: 25px;}
 }
     
 /* Large devices (desktops, 750px and up) */
@@ -189,6 +199,7 @@ hr{
     body-div{margin: 10%;}
     .titleColorAbout{font-size: 25px;}
     .newsTitleColor{font-size: 30px;}
+    .viewDes{font-size: 30px;}
 }
 
 /* Larger devices (large desktops, 900px and up) */
@@ -198,6 +209,7 @@ hr{
     .form{max-width: 390px; font-size: 16px;}
     #msg{font-size: 18px;}
     .newsTitleColor{font-size: 35px;}
+    .viewDes{font-size: 35px;}
 }
     
 /* Extra large devices (large desktops, 1200px and up) */
