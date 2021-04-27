@@ -9,3 +9,5 @@
         <p><a href="<?= '/news/'.$news_item['slug'] ?>">View article</a></p>
 
 <?php endforeach; ?>
+<script src=/assets/js/jquery.min.js></script>
+<script src=/assets/js/bootstrap.min.js></script>
