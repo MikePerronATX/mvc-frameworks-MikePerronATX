@@ -10,6 +10,7 @@ class News extends CI_Controller {
         public function view($slug = NULL)
 		{
         $data['news_item'] = $this->news_model->get_news($slug);
+        $data['servertime'] = date('l jS \of F Y h:i:s A');//server time
 
         if (empty($data['news_item']))
         {
