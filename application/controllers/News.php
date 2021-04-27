@@ -1,3 +1,8 @@
+<!--
+Name: Michael Perron
+Coding 08
+Purpose: based on tutorial for controllers
+-->
 <?php
 class News extends CI_Controller {
 

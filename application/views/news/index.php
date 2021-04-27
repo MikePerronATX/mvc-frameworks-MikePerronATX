@@ -1,3 +1,8 @@
+<!--
+Name: Michael Perron
+Coding 08
+Purpose: To display news clips
+-->
 <h2><?= $title; ?></h2>
 
 <?php foreach ($news as $news_item): ?>
