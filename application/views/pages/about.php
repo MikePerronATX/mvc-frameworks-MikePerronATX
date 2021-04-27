@@ -80,37 +80,7 @@ Purpose: The about page on how to dye Easyter Eggs.
         <hr>
         <h3 id="tipColor">Tip:</h3>
         <p id="tipColor-text">When you take your eggs out of the fridge, allow them to dry before you handle them. This 
-        will keep the colors from smearing or running.</p>
-
-        <h3 class="titleColorAbout">For More Information:</h3>
-
-        <div class="form">
-        <form id="email-form" name="email-form">
-            <div class="col-sm-12">Name
-                <input type="text" id="name" placeholder="name" name="name" maxlength="64"><br>
-            </div>
-            <div class="col-sm-12">Subject
-                <input type="text" id="subject" placeholder="subject" name="subject" maxlength="64"><br>
-            </div>
-            <div class="col-sm-12">Email
-                <input type="text" id="from" placeholder="email" name="from" maxlength="64"><br>
-            </div>
-            <div class="col-sm-12">Confirm Email
-                <input type="text" id="re_from" placeholder="confirm email" name="re_from" maxlength="64"><br>
-            </div>
-            <div class="col-sm-12">Message
-                <textarea class="form-control rounded-0" id="message" placeholder="message" name="message" rows="3" maxlength="1000"></textarea>
-            </div>
-            <div class="input-div">
-                <button id="names-send" type="button" class="">Send</button>
-                <button id="names-clear" type="button" class="">Clear</button>
-            </div>
-        </form>
-        <div id="msg">
-            <!-- message appears here -->
-            <br>
-        </div>
-   </div>    
+        will keep the colors from smearing or running.</p>  
     </div>   
 </div>
 <script src=assets/js/jquery.min.js></script>
