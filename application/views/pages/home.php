@@ -5,6 +5,7 @@ Purpose: This page has the html structure for the index page,
 has an image that changes depending on size of the viewer,
 and text that wraps the image or drops beneath the image.
 -->
+
 <div class="body-div">
     <img src="/assets/images/bunny.png" class="img-fluid" id="bunny">
     <div class="lipsum-text">
