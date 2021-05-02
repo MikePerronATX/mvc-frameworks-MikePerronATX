@@ -1,7 +1,7 @@
 <!--
 Name: Michael Perron
-Coding 08
-Purpose: The about page on how to dye Easter Eggs.
+Coding 07
+Purpose: The about page on how to dye Easyter Eggs.
 -->
 <div class="body-div">
     <div class="egg-text">
@@ -84,4 +84,6 @@ Purpose: The about page on how to dye Easter Eggs.
     </div>   
 </div>
 <script src=assets/js/jquery.min.js></script>
+<script src=assets/js/main.js></script>
+<script src=assets/js/email.js></script>
 <script src=assets/js/bootstrap.min.js></script>

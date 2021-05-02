@@ -15,36 +15,6 @@ function clearForm() {
     $('#msg').html('<br>'); // minor violation of concerns, but okay for now
 }
 
-function sendData(contactName, contactFrom, contactRe_from, 
-                    contactSub, contactMess ) {
-
-    let msgArea = document.getElementById("msg");
-
-    $.ajax({
-        url: 'email.php',
-        type: 'POST',
-        data: {contactName: contactName,
-                contactFrom: contactFrom,
-                contactRe_from: contactRe_from,
-                contactSub: contactSub,
-                contactMess: contactMess},
-        success: function (val) {
-            console.log(val);
-            if (val === 'okay') {
-                clearForm();
-                msgArea.innerHTML = "Your message was sent";
-            } else {
-                msgArea.innerHTML = "Sorry, your email was not sent";
-            }
-        },
-        error: function () {
-            msgArea.innerHTML = "Server Error1";
-        }
-    });
-
-    return;
-}
-
 function validate() {
     var errorMessage = "";
    
@@ -82,12 +52,7 @@ function validate() {
     }
     
     if (errorMessage === "") {
-        console.log("calling ajax");
-        sendData(contactName,
-                    contactFrom,
-                    contactRe_from,
-                    contactSub,
-                    contactMess);
+        msgArea.innerHTML = "SENT (Pretending to send email in this basic page.)";
 
     } else {
         console.log("errors");
