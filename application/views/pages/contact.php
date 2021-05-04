@@ -36,7 +36,7 @@ Purpose: This page is the contact form template body.
    </div>
 </div>
 <!-- jQuery must be loaded before any other JS that uses jQuery -->
-<script src=/assets/jquery.min.js></script>
+<script src=/assets/js/jquery.min.js></script>
 <script src=/assets/js/main.js></script>
 <script src=/assets/js/email.js></script>
 <script src=/assets/js/bootstrap.min.js></script>
