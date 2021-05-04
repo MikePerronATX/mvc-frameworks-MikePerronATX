@@ -1,6 +1,6 @@
 /* 
 Name: Michael Perron
-Coding 07 - JQUERY
+Coding 08 - Ajax
 Purpose: This page is to add the needed js to make page contact form
 perform correctly.
 */
@@ -15,6 +15,33 @@ function clearForm() {
     $('#msg').html('<br>'); // minor violation of concerns, but okay for now
 }
 
+function sendData(contactName, contactFrom, contactSub, contactMess) {
+    //bring the message area in to report errors or "Sent!"
+    let msgArea = document.getElementById("msg");
+
+    $.ajax({
+        url: 'processnames',
+        type: 'POST',
+        data: { contactName: contactName, 
+                contactFrom: contactFrom, 
+                contactSub: contactSub, 
+                contactMess: contactMess},
+        success: function (val) {
+            console.log(val);
+            if (val === 'okay') {
+                clearForm();
+                msgArea.innerHTML = "Sent!";
+            } else {
+                msgArea.innerHTML = "Processing Error";
+            }
+        },
+        error: function () {
+            msgArea.innerHTML = "Server Error";
+        }
+    });
+
+    return;
+}
 function validate() {
     var errorMessage = "";
    
@@ -52,8 +79,12 @@ function validate() {
     }
     
     if (errorMessage === "") {
-        msgArea.innerHTML = "SENT (Pretending to send email in this basic page.)";
-
+        // no errors, so send the data to the server
+        console.log("calling ajax");
+        sendData(contactName, 
+                    contactFrom, 
+                    contactSub, 
+                    contactMess);
     } else {
         console.log("errors");
         msgArea.innerHTML = errorMessage;
