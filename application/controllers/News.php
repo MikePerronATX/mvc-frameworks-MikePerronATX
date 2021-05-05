@@ -1,3 +1,9 @@
+<!--
+Name: Michael Perron
+Final Project
+Purpose: This page gatheres data from the db and sends the correct views 
+to the templates.
+-->
 <?php
 class News extends CI_Controller {
 
@@ -7,9 +13,6 @@ class News extends CI_Controller {
             $this->load->model('news_model');
             $this->load->helper('url_helper');
         }
-
-
-
 
         public function view($slug = NULL)
 		{
@@ -29,8 +32,6 @@ class News extends CI_Controller {
             $this->parser->parse('news/view', $data);
             $this->load->view('templates/footer');
 		}
-
-
 
 		public function index()
 		{

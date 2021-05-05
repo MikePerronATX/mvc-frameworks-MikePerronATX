@@ -1,6 +1,6 @@
 /* 
 Name: Michael Perron
-Coding 08 - Ajax
+Final Project - Ajax
 Purpose: This page is to add the needed js to make page contact form
 perform correctly.
 */
@@ -16,7 +16,7 @@ function clearForm() {
 }
 
 function sendData(contactName, contactFrom, contactSub, contactMess) {
-    //bring the message area in to report errors or "Sent!"
+
     let msgArea = document.getElementById("msg");
 
     $.ajax({
@@ -79,7 +79,7 @@ function validate() {
     }
     
     if (errorMessage === "") {
-        // no errors, so send the data to the server
+
         console.log("calling ajax");
         sendData(contactName, 
                     contactFrom, 

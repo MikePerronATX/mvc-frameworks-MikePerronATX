@@ -1,3 +1,9 @@
+<!--
+Name: Michael Perron
+Final Project
+Purpose: This page is the model for the News stories.
+It's functions query the data from the db.
+-->
 <?php
 defined('BASEPATH') OR exit('Forbidden');
 class News_model extends CI_Model {

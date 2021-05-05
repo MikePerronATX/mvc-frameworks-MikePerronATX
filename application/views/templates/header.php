@@ -1,6 +1,6 @@
 <!--
 Name: Michael Perron
-Coding 08
+Final Project
 Purpose: This is the header template page that will be used on each
 displayed page.
 -->

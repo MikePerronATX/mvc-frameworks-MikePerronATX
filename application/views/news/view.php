@@ -1,3 +1,8 @@
+<!--
+Name: Michael Perron
+Final Project
+Purpose: Page to view output.
+-->
 <div class="viewDes">
     {title}
 </div>

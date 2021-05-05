@@ -1,7 +1,7 @@
 <!--
 Name: Michael Perron
-Coding 07
-Purpose: The about page on how to dye Easyter Eggs.
+Final Project
+Purpose: The about page on how to dye Easter Eggs.
 -->
 <div class="body-div">
     <div class="egg-text">

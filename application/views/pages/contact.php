@@ -1,6 +1,6 @@
 <!--
 Name: Michael Perron
-Coding 06
+Final Project
 Purpose: This page is the contact form template body.
 -->
 <div class="body-div">

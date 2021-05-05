@@ -1,6 +1,6 @@
 <!--
 Name: Michael Perron
-Coding 07
+Final Project
 Purpose: Created this page based on the tutorial, 
 and added a variable for the server time.
 -->

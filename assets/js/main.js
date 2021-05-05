@@ -1,6 +1,6 @@
 /* 
 Name: Michael Perron
-Coding 07
+Final Project
 Purpose: This file contains a common function for email.js
 and maybe other pages in the future.
 */
