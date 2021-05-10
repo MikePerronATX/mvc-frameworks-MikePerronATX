@@ -15,7 +15,7 @@ displayed page.
 		</head>
         <body>
 			<nav class="navbar navbar-expand-md">
-				<a class="navbar-brand" href="/home">Coding 07</a>
+				<a class="navbar-brand" href="/home">Final Project</a>
 				<button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
