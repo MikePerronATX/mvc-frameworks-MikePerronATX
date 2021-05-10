@@ -1,9 +1,3 @@
-<!--
-Name: Michael Perron
-Final Project
-Purpose: This page gathers data submitted in the form, validates it, 
-and uses it send an email to the specified (and validated) email address.
--->
 <?php
 class Ajax extends CI_Controller {
 
