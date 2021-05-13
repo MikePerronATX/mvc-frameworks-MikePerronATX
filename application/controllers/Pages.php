@@ -5,6 +5,7 @@ Purpose: Created this page based on the tutorial,
 and added a variable for the server time.
 -->
 <?php
+defined('BASEPATH') OR exit('Forbidden');
 class Pages extends CI_Controller {
 
     public function view($page = 'home'){
