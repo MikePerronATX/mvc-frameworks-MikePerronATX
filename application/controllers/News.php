@@ -5,6 +5,7 @@ Purpose: This page gatheres data from the db and sends the correct views
 to the templates.
 -->
 <?php
+defined('BASEPATH') OR exit('Forbidden');
 class News extends CI_Controller {
 
         public function __construct()
