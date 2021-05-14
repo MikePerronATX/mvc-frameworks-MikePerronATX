@@ -49,9 +49,12 @@ body{
     text-align:center;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
-.egg-text-photoBG{
-    background-color: gray;
+.egg-text img{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.2);
 }
+/* .egg-text-photoBG{
+    background-color: gray;
+} */
 .eggTitles{
     color:#13bfdd;
 }
@@ -169,6 +172,7 @@ hr{
     border-radius: 44px;
     margin-top: 2%;
     width: 100%;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.2);
 } 
 .newsTitle{
     text-align: center;
@@ -210,13 +214,9 @@ hr{
     color: rgb(5, 123, 128);
 }
 .typewriter-Text{
-    /* font-family: monospace; */
-    /* letter-spacing: .14em; */
     margin-right: 5%;
     margin-left: 5%;
     font-size: 14px;
-    /* overflow: hidden;
-    animation: typing 3.5s steps(30, end), blinking-cursor .5s step-end infinite; */
 }
 #text{
     font-size: 45px;
@@ -249,13 +249,13 @@ hr{
     #msg{font-size: 10px;}
 }
 
-/* Small devices (landscape phones, 300px and up) */
+/* Small devices (landscape phones, 400px and up) */
 @media (min-width: 400px) {  
     .newsTitle{font-size: 22px;}
     .newsArchTitle{font-size: 20px;}  
 }
 
-/* Small devices (landscape phones, 300px and up) */
+/* Small devices (landscape phones, 570px and up) */
 @media (min-width: 570px) {  
     .newsArchTitle{font-size: 16px;}  
 }
@@ -308,7 +308,7 @@ hr{
     #msg{font-size: 20px;}
     .news_img img{width: 25%;} 
 }
-/* Extra Extra large devices (large desktops, 1200px and up) */
+/* Extra Extra large devices (large desktops, 1500px and up) */
 @media (min-width: 1500px) {  
     h1{font-size:4rem;}
     h2 {font-size:3.5rem;}
